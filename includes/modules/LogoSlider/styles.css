@@ -1,0 +1,67 @@
+.dina_slider_icon {
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.dina_logo_slider_child {
+    margin-bottom: 0 !important;
+}
+
+/* arrows */
+.slick-arrow {
+    position: absolute;
+    top: calc(50% - 15px);
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.dina_logo_slider-container.show-arrow-on-hover .slick-arrow {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.dina_logo_slider-container.show-arrow-on-hover:hover .slick-arrow {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.dina_logo_slider-container .dina_prev_icon {
+    left: 15px;
+}
+
+.dina_logo_slider-container .dina_next_icon {
+    right: 15px;
+}
+
+/* dots */
+ul.slick-dots {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display: flex !important;
+    justify-content: center;
+    gap: 10px;
+}
+
+ul.slick-dots li button {
+    position: relative;
+    background: #bdbdbd;
+    color: transparent;
+    font-size: 0px;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    transition: all 0.4s ease;
+}
+
+ul.slick-dots li.slick-active button,
+ul.slick-dots li button:hover {
+    background: #000;
+}

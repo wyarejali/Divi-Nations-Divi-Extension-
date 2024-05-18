@@ -1,0 +1,36 @@
+/* Default css */
+.dina_icon {
+    font-style: normal !important;
+    line-height: 1;
+    font-family: ETmodules;
+    speak: none;
+    font-weight: 400;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    font-size: 96px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    direction: ltr;
+}
+
+.dina_icon {
+    font-style: normal !important;
+}
+
+.dina_flip_card-container,
+.dina_icon,
+.dina_divider_icon,
+.dina_divider-title,
+.dina_image_magnifier-image,
+.dina_image_magnifier-lens-dev,
+.dina_image_magnifier-lens,
+.dina_pricelist-item-wrapper,
+.dina_pricelist-image,
+.dina_pricelist_item,
+.dian_slider_icon {
+    border-style: solid;
+}

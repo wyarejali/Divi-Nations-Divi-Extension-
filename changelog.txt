@@ -1,0 +1,4 @@
+Version 1.0.0 ( May 15 2024 )
+- Module Added: Advanced Divider Added
+- Module Added: Flip Card Added
+- Module Added: Price List Added

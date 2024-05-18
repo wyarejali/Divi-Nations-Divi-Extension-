@@ -1,4 +1,4 @@
-input.dina-input {
+input.dne-input {
   background: #f1f5f9;
   max-height: 30px;
   border: 0;
@@ -15,27 +15,27 @@ input.dina-input {
   width: 100%;
 }
 
-input.dina-input:focus {
+input.dne-input:focus {
   background: #e6ecf2;
 }
 
-input.dina-input::-webkit-input-placeholder {
+input.dne-input::-webkit-input-placeholder {
   color: #98a7b8;
 }
 
-input.dina-input:-moz-placeholder {
+input.dne-input:-moz-placeholder {
   color: #98a7b8;
 }
 
-input.dina-input::-moz-placeholder {
+input.dne-input::-moz-placeholder {
   color: #98a7b8;
 }
 
-input.dina-input:-ms-input-placeholder {
+input.dne-input:-ms-input-placeholder {
   color: #98a7b8;
 }
 
-input.dina-input[readonly] {
+input.dne-input[readonly] {
   background: #ffffff !important;
   border: 1px solid #eaedf0 !important;
   cursor: not-allowed;

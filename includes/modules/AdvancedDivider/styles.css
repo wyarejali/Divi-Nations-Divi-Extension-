@@ -1,0 +1,30 @@
+.dina_divider_wrapper {
+    display: flex;
+}
+
+.dina_divider_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dina_divider_wrapper.dina_divider-flex-start {
+    align-items: flex-start;
+}
+.dina_divider_wrapper.dina_divider-center {
+    align-items: center;
+}
+.dina_divider_wrapper.dina_divider-flex-end {
+    align-items: flex-end;
+}
+
+.dina_divider-before,
+.dina_divider-after {
+    flex-grow: 1;
+}
+
+.dina_divider-title {
+    margin: 0;
+    padding: 0;
+    flex-shrink: 1;
+}

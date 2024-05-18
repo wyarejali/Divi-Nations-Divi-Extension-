@@ -1,6 +1,6 @@
 <?php
 
-class DINA_DiviNations extends DiviExtension {
+class DNE_DiviNations extends DiviExtension {
 
 	/**
 	 * The gettext domain for the extension's translations.
@@ -9,7 +9,7 @@ class DINA_DiviNations extends DiviExtension {
 	 *
 	 * @var string
 	 */
-	public $gettext_domain = 'dina-divi-nations';
+	public $gettext_domain = 'dne-divi-nations';
 
 	/**
 	 * The extension's WP Plugin name.
@@ -27,10 +27,11 @@ class DINA_DiviNations extends DiviExtension {
 	 *
 	 * @var string
 	 */
-	public $version = '1.0.0';
+	// public $version = DNE_DIVI_NATIONS_PLUGIN_VERSION;
+	public $version = '1.1.1';
 
 	/**
-	 * DINA_DiviNations constructor.
+	 * DNE_DiviNations constructor.
 	 *
 	 * @param string $name
 	 * @param array  $args
@@ -43,4 +44,4 @@ class DINA_DiviNations extends DiviExtension {
 	}
 }
 
-new DINA_DiviNations;
+new DNE_DiviNations;
